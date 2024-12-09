@@ -1,0 +1,101 @@
+body {
+    font-family: Verdana, sans-serif;
+    line-height: 1.6;
+    font-size: 17px;
+
+}
+
+header {
+    position: sticky;
+    top: 0;
+    background-color: #c8d6af;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+section {
+    display: flex;
+}
+
+table, th, td {
+    border: 1px solid;
+    background-color: white;
+}
+
+table {
+    margin: auto;
+    width: 50%;
+}
+
+ul {
+    list-style-type: circle;
+}
+
+figcaption {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+input[type=text] {
+    border: none;
+    border-bottom: 2px solid rgb(8, 0, 72);
+}
+
+input[type=text]:focus {
+    background-color: lightblue;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Adds consistent space between each form element */
+}
+
+label {
+    margin-bottom: 5px; /* Adds a small space below each label */
+}
+
+.img-container {
+    float: left;
+}
+
+.headshot-img {
+    img {
+        width: 400px;
+        height: 600px;
+        padding: 20px;
+        margin: 40px;
+    } 
+}
+
+.col-sm-8 {
+    p {
+        margin: 40px;
+      }
+}
+
+.post {
+    background-color: rgb(231, 255, 245);
+    margin: 10px;
+}
